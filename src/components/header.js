@@ -1,5 +1,5 @@
 import React from "react"
 
-export default () =>
+export default props =>
 
-    <h1>This is a header</h1>
+    <h1>{props.headerText}</h1>
